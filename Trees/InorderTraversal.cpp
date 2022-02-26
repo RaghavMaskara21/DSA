@@ -1,5 +1,8 @@
 /* 
     https://leetcode.com/problems/binary-tree-inorder-traversal
+    Take a stack and push all left elements into the stack
+    take out topmost element and print it
+    set curr to curr->right
 */
 class Solution {
 public:
