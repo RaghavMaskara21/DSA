@@ -1,7 +1,9 @@
 /*
     https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
-    Notes: Take a variable level, ans whenever size of result array==level, push the root
-
+    Notes: 
+    in recursion, Take a variable level
+    whenever size of result array==level, push the root
+    For left view-> call left recursion first then right
     For right view- we will call root->right first then root->left
 */
 

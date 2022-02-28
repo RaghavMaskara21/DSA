@@ -1,6 +1,8 @@
 /*
     https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
-    
+    make a map with map<int, map<int, multiset<int>>> m;
+    make a queue with node and level
+    challenging part is printing the answer
 */
 
 

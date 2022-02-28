@@ -2,9 +2,8 @@
 https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
 
 Notes- we will draw lines vertically.
-    -store vertical level and the value in a map
-    -make a queue with node and vertical levels
-    -do level order traversal and update the value of the map
+    - create a map for level and value ; and a queue for node and level
+    - do level order traversal and update the value of the map everytime we traverse
 */
 
 

@@ -1,5 +1,9 @@
 /* 
     https://leetcode.com/problems/binary-tree-preorder-traversal
+    Notes-
+    take a stack and print the current->left node and push it into stack
+    pop it
+    set curr to curr->right
 */
 class Solution {
 public:

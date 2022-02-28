@@ -1,3 +1,7 @@
+/*
+https://www.interviewbit.com/problems/path-to-given-node/
+
+*/
 bool path(TreeNode* curr, int B, vector<int> &ans){
     if(!curr) return false;
     ans.push_back(curr->val);

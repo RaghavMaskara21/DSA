@@ -1,5 +1,11 @@
 /*
     https://leetcode.com/problems/binary-tree-postorder-traversa
+    Notes-
+    Take 2 stacks
+    push root in 1 stack
+    while s1 not empty - pop element and put in s2
+    push its left and right node in s1
+    after loop put all elements from stack to ans
 */
 class Solution {
 public:

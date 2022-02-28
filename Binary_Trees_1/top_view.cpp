@@ -1,10 +1,8 @@
 /*
     https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1
-    Notes- we will look at the tree vertically
-    - store level and value in a map
-    - make a queue with node and level
-    - do level order traversal
-    -if map containes a value with the level the ignore else insert 
+    Notes- we will draw lines vertically.
+    - create a map for level and value ; and a queue for node and level
+    - do level order traversal and update the value of the map only the first time
 */
 vector<int> topView(Node *root)
     {
