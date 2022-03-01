@@ -2,15 +2,15 @@
 
 ## Inorder Traversal (Iterative)
 
--Take a stack and push all left elements into the stack
--take out topmost element and print it
--set curr to curr->right
+- Take a stack and push all left elements into the stack
+- take out topmost element and print it
+- set curr to curr->right
 
 ## Preorder Traversal (Iterative)
 
--take a stack and print the current->left node and push it into stack
--pop it
--set curr to curr->right
+- take a stack and print the current->left node and push it into stack
+- pop it
+- set curr to curr->right
 
 ## Postorder Traversal (Iterative)
 
