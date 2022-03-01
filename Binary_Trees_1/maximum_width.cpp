@@ -1,6 +1,14 @@
 /*
     https://leetcode.com/problems/maximum-width-of-binary-tree/
-    
+    - Make a queue {root,0}
+- Do level order traversal.
+- In the level order traversal we set another loop to run for the size of the queue, so that we visit the same level nodes inside it.
+- Before a level starts, we use a variable(say curMin) to store the index of the first node.
+- We assign an index to every node, and to its children as described above.
+- When the inner loop is at the first node of a level, we store its index in another variable(sayleftMost)
+- When the inner loop is at the last node of a level, we store its index in another variable(say rightMost)
+- After a level in the outer loop, we calculate the width of the level as (rightMost – leftMost +1).
+- We return the maximum width as the answer.
 */
 class Solution {
 public:
