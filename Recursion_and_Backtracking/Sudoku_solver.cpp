@@ -1,3 +1,8 @@
+/*
+Notes- Check Efficient way
+we use hashmap to store previous values to check in 0(1) time
+*/
+
 class Solution {
 public:
     
